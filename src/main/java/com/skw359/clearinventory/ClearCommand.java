@@ -24,7 +24,7 @@ public class ClearCommand implements CommandExecutor {
                 Inventory inv = player.getInventory();
                 inv.clear();
 
-                player.sendMessage(ChatColor.GREEN + "[!] Your inventory has been cleared");
+                player.sendMessage(ChatColor.GREEN + "[!] Inventory cleared");
 
                 return true;
             } else {
