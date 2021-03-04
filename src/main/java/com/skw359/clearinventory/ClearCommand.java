@@ -28,12 +28,12 @@ public class ClearCommand implements CommandExecutor {
 
                 return true;
             } else {
-                player.sendMessage(ChatColor.RED + "You don't have the required permission to use this command!");
+                player.sendMessage(ChatColor.RED + "You don't have permission to use this command!");
                 return true;
             }
 
         } else {
-            main.getLogger().info("You have to be a player to clear your inventory!");
+            main.getLogger().info("You can't use this command from console!");
             return true;
         }
     }
