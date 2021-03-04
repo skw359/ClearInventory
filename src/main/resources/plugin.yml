@@ -2,7 +2,7 @@ name: ClearInventory
 version: ${project.version}
 main: com.skw359.clearinventory.Main
 api-version: 1.16
-authors: [ Sky_Wizard360 ]
+authors: [ skw359 ]
 commands:
   clear:
     description: Clears the user's inventory!
