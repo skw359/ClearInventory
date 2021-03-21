@@ -24,11 +24,11 @@ public class ClearCommand implements CommandExecutor {
                 Inventory inv = player.getInventory();
                 inv.clear();
 
-                player.sendMessage(ChatColor.GREEN + "[!] Inventory cleared");
+                player.sendMessage(ChatColor.GREEN + "Inventory cleared");
 
                 return true;
             } else {
-                player.sendMessage(ChatColor.RED + "You don't have permission to use this command!");
+                player.sendMessage(ChatColor.RED + "Insufficient permission.");
                 return true;
             }
 
