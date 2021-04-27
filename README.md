@@ -1,10 +1,10 @@
 # ClearInventory
-This is a small plugin to clear your inventory upon request, nothing fancy :)
+This is a small plugin to clear your inventory, nothing fancy :)
 
-Compatible versions: 1.8-1.16.5
+Compatible versions: 1.8-1.16.x
 
-By default, you can't use it. Negate the permission clearinventory.use to true!
+Negate the permission clearinventory.use to allow usage of the plugin!
 
-Yes, this is my first project so you're welcome to look at it and do whatever you wish. I'm open to feedback, pull requests, etc. 
+As you may have guessed, this is my first project, given the simplicity of it. Feel free to create a pull request, issues, etc. 
 
 All in all, thank you for downloading and I hope you enjoy!
