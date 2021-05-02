@@ -1,9 +1,9 @@
 # ClearInventory
 This is a small plugin to clear your inventory, nothing fancy :)
 
-Compatible versions: 1.8-1.16.x
+Works on about every Minecraft version above 1.8+, not likely to break with updates
 
-Negate the permission clearinventory.use to allow usage of the plugin!
+Permission node: clearinventory.use
 
 As you may have guessed, this is my first project, given the simplicity of it. Feel free to create a pull request, issues, etc. 
 
