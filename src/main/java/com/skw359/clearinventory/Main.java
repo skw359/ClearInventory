@@ -8,8 +8,8 @@ public final class Main extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         System.out.println("\033[36;1mClearInventory >> \033[32;1;2mLoading data...\033[0m");
-        System.out.println("\033[36;1mClearInventory >> \033[32;1;2mWelcome to ClearInventory, \033[34;1;2mby skw359\033[0m");
-        System.out.println("\033[36;1mClearInventory >> \033[36;1;2mReport any issues Github @skw359 or Discord: Wizz#0607\033[0m");
+        System.out.println("\033[36;1mClearInventory >> \033[32;1;2mWelcome to ClearInventory, \033[34;1;2mby Wizz\033[0m");
+        System.out.println("\033[36;1mClearInventory >> \033[36;1;2mReport any issues on GitHub or Discord: Wizz#0607\033[0m");
         getServer().getPluginCommand("clear").setExecutor(new ClearCommand(this));
     }
 
